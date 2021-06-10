@@ -1,5 +1,5 @@
 import React from "react";
-import Friend from "../Friend";
+import Friend from "../FriendListItem";
 import PropTypes from "prop-types";
 
 const FriendList = ({ friends }) => {

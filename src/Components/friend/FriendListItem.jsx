@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import styles from "./FriendStyles.module.css";
 
-const Friend = ({ avatar, name, isOnline, id }) => (
-  <li className={styles.item} key={id}>
+const Friend = ({ avatar, name, isOnline }) => (
+  <li className={styles.item}>
     <span className={isOnline ? styles.online : styles.offline}>
       {isOnline}
     </span>

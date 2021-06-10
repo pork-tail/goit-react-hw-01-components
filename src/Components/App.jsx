@@ -6,7 +6,6 @@ import Statistics from "./statistics/Statistics";
 import TransactionHistory from "./transaction/TransactionHistory";
 
 const App = () => {
-  // console.log(data.transactions);
   return (
     <>
       <h2>Profile</h2>
@@ -22,7 +21,7 @@ const App = () => {
       <h2>Friend</h2>
       <FriendList friends={data.friends} />
       <h2>Transaction History</h2>
-      <TransactionHistory transactions={data.transactions} />
+      <TransactionHistory items={data.transactions} />
     </>
   );
 };
